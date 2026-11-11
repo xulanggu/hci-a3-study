@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-11",
+  "pytest": {
+    "passed": 27,
+    "command": "PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 /private/tmp/hci-a3-venv/bin/python -m pytest -p no:capture a3/tests -q",
+    "runtime": "Python 3.11; Streamlit 1.64.0; numpy 2.4.6; Pillow 12.3.0; pandas 2.3.3",
+    "note": "Capture plugin disabled because this machine Anaconda readline extension segfaults; no application code or tests skipped."
+  },
+  "model": {
+    "top1_top2_match": "240/240",
+    "accuracy": 0.7791666666666667,
+    "correct": 187,
+    "wrong": 53,
+    "checkpoint": {
+      "expected": "a2a2ba6a335a3b29c21acb6272f962bd3d47f84952aaffa03b60986e04efa61c",
+      "actual": "a2a2ba6a335a3b29c21acb6272f962bd3d47f84952aaffa03b60986e04efa61c",
+      "matches": true
+    },
+    "per_class_recall": {
+      "neutral": 1.0,
+      "happiness": 0.8947368421052632,
+      "surprise": 1.0,
+      "sadness": 0.6052631578947368,
+      "anger": 0.8108108108108109,
+      "disgust": 0.3333333333333333,
+      "fear": 0.5945945945945946,
+      "contempt": 0.0
+    },
+    "mismatches": []
+  },
+  "model_runtime": "A2 existing Python 3.12.6 environment: onnxruntime 1.24.4, onnx 1.21.0, numpy 2.5.3, Pillow 12.3.0",
+  "simulation": {
+    "sessions": 6,
+    "completed": 4,
+    "terminated": 1,
+    "restart_in_progress": 1,
+    "trial_rows": 100,
+    "questionnaires": 4,
+    "assertions": "passed",
+    "synthetic_only": true
+  },
+  "exports": {
+    "sessions": {
+      "rows": 6,
+      "columns": 14
+    },
+    "trials": {
+      "rows": 100,
+      "columns": 30
+    },
+    "questionnaires": {
+      "rows": 4,
+      "columns": 12
+    }
+  },
+  "unverified": [
+    "Fresh complete installation of pinned dependencies on Python 3.11 (package download network unavailable)",
+    "Live ONNX inference inside Python 3.11 Streamlit process (UI tested frozen fallback; live adapter also unit tested)",
+    "Hosted Supabase SQL/RLS/RPC and service connectivity",
+    "Streamlit Cloud deployment and 20\u201330 concurrent hosted clients",
+    "Real human pilot"
+  ],
+  "deferred": [
+    "P2 resume",
+    "P2 global least-exposure sampling"
+  ]
+}

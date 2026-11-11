@@ -1,0 +1,33 @@
+{
+  "model_sha256": "a2a2ba6a335a3b29c21acb6272f962bd3d47f84952aaffa03b60986e04efa61c",
+  "model_source_url": "https://huggingface.co/onnxmodelzoo/emotion-ferplus-8/resolve/4d016bfebdb4122b1f37511c5a9d40b5c87054a8/emotion-ferplus-8.onnx",
+  "model_revision": "4d016bfebdb4122b1f37511c5a9d40b5c87054a8",
+  "manifest_sha256": "5fffe822e343dd83fcaf53cf5213e89f5b2857baa39b834e8ed0c5ed710d1785",
+  "predictions_sha256": "818e2574be9d0c68169bc0a5bc6ae33394373ed9c192457d8bc19f85cdfdd8b7",
+  "config_sha256": "ed9b40ad2d9bb55a7439d7061ee8b62f0003d639fa1253a45189a186dc457fa7",
+  "onnxruntime_version": "1.24.4",
+  "python": "3.12.6",
+  "numpy": "2.5.3",
+  "pillow": "12.3.0",
+  "pipeline_sha256": "538247ed7524ffc6bd4260f3c5a1d4686cead725635913048c0df9eac3922c34",
+  "input_name": "Input3",
+  "input_shape": [
+    1,
+    1,
+    64,
+    64
+  ],
+  "output_metadata": [
+    {
+      "name": "Plus692_Output_0",
+      "shape": [
+        1,
+        8
+      ],
+      "type": "tensor(float)"
+    }
+  ],
+  "preprocessing": "PIL grayscale L; 64x64 LANCZOS; float32; raw 0..255; NCHW; no additional normalization",
+  "elapsed_seconds": 6.1937479972839355,
+  "unix_time": 1792131385.9043489
+}

@@ -1,0 +1,22 @@
+{
+  "top1_top2_match": "240/240",
+  "accuracy": 0.7791666666666667,
+  "correct": 187,
+  "wrong": 53,
+  "checkpoint": {
+    "expected": "a2a2ba6a335a3b29c21acb6272f962bd3d47f84952aaffa03b60986e04efa61c",
+    "actual": "a2a2ba6a335a3b29c21acb6272f962bd3d47f84952aaffa03b60986e04efa61c",
+    "matches": true
+  },
+  "per_class_recall": {
+    "neutral": 1.0,
+    "happiness": 0.8947368421052632,
+    "surprise": 1.0,
+    "sadness": 0.6052631578947368,
+    "anger": 0.8108108108108109,
+    "disgust": 0.3333333333333333,
+    "fear": 0.5945945945945946,
+    "contempt": 0.0
+  },
+  "mismatches": []
+}

@@ -1,0 +1,24 @@
+A3 packaging note: the checkpoint IS bundled under models/ for reliable deployment.
+The following A2 provenance/usage notice is preserved verbatim; its last paragraph
+describes the older A2 submission packaging, not this A3 implementation.
+
+FER2013 images originate from the 2013 representation-learning challenge.
+The exact original CSV was verified against the user-provided checksum and
+acquired from the explicitly requested Hugging Face archive mirror.
+The archive README requests citation of Goodfellow et al. (2013),
+"Challenges in Representation Learning: A report on three machine learning
+contests", https://arxiv.org/abs/1307.0414. Its README and BibTeX are preserved
+under source/dataset_README and source/dataset_fer2013.bib.
+FER+ annotations: Microsoft FERPlus, https://github.com/microsoft/FERPlus;
+cite Barsoum et al. (2016), https://arxiv.org/abs/1608.01041.
+
+This local package contains only the selected 280 development/study images
+for the requested private course evaluation, not the full raw image dataset.
+No files were published or submitted externally. A mirror's availability
+alone is not a new grant of image rights; retain the original source terms
+and do not treat this package as a freely redistributable public dataset.
+The supplied archive README provides citation instructions but no blanket
+redistribution license. Public redistribution permission was not established.
+
+The checkpoint is referenced by pinned URL and checksum, not bundled.
+The report fonts retain their included license file.
